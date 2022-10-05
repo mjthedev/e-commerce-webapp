@@ -1,11 +1,20 @@
+import './css/index.css';
+import TopAd  from './components/TopAd';
+import Footer from './components/Footer';
+import NavigaionBar from './components/NavigaionBar';
+import Header from './components/Header';
+import Container from './components/Container';
 
-import './index.css';
 
 function App() {
   return (
-    <div className="container">
-      <h1 className="main">e-commerce-webapp</h1>
-    </div>
+    <>
+      <TopAd/>
+      <NavigaionBar/>
+      <Header/>
+      <Container/>
+      <Footer/>
+    </>
   );
 }
 

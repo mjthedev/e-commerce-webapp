@@ -1,0 +1,21 @@
+
+.topad--div {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 45px;
+}
+
+.topad--div-items {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    border: wheat 2px solid;
+}
+
+.topad--div-item {
+    justify-content: center;
+    color: white;
+
+}
