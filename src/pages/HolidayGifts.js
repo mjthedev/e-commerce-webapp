@@ -1,7 +1,7 @@
 import '../css/index.css';
 import TopAd  from '../components/TopAd';
 import Footer from '../components/Footer';
-import NavigaionBar from '../components/NavigaionBar';
+import NavigationBar from '../components/NavigationBar';
 import Header from '../components/Header';
 
 
@@ -11,7 +11,7 @@ function HolidayGifts() {
     return (
       <>
         <TopAd/>
-        <NavigaionBar/>
+        <NavigationBar/>
         <Header/>
         <Footer/>
       </>
