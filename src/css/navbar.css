@@ -27,7 +27,6 @@
 .navbar--main-header {
     display: flex;
     margin-left: 20px;
-    border: white 2px solid;
     align-items: center;
     
 }
@@ -42,7 +41,6 @@
     display: flex;
     align-items: center;
     color: black;
-    border: white 2px solid;
 }
 
 .navbar--main-shoppingbag-item {
@@ -84,3 +82,9 @@ a.navbar--a-items:hover {
 }
 
 
+.navbar--main-header-style {
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: lighter;
+    color: black;
+}
