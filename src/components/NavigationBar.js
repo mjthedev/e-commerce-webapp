@@ -19,7 +19,7 @@ const NavigationBar = () => {
     <input className="navbar--main-search" type="text" placeholder="Search for products or brands"/>
 </div>
 <div className="navbar--main-signin-shoppingbag">
-    <p className="navbar--main-signin-item"><a style={{color: 'black', textDecoration: 'none'}} href="google.com">Sign in</a> <i className="navbar--main-signin-icon fa-solid fa-angle-down"></i></p>
+    <p className="navbar--main-signin-item"><a style={{color: 'black', textDecoration: 'none'}} href="fdasffasdf">Sign in</a> <i className="navbar--main-signin-icon fa-solid fa-angle-down"></i></p>
     <i className="navbar--main-shoppingbag-item fa-solid fa-xl fa-bag-shopping"></i>
 </div>
 </div>

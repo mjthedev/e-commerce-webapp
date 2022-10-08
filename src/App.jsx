@@ -4,6 +4,7 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
+
 import MainHome from './pages/navbarComponents/MainHome.jsx';
 import ErrorPage from './pages/Error/ErrorPage';
 import HolidayGifts from './pages/navbarComponents/HolidayGifts.js';
@@ -42,10 +43,10 @@ function App() {
             <Route path="/Gift" element = {<Gift/>}/>
             <Route path="/Threads" element = {<Threads/>}/>
             <Route path="*" element={<ErrorPage/>}/>
-
-            <FooterRoutes/>
-
+            <Route path="/footer/*" element={<FooterRoutes/>}/>
           </Routes>
+
+          
       </>      
   );
 }

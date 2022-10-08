@@ -1,3 +1,5 @@
+import { Routes, Route} from 'react-router-dom';
+import ErrorPage from '../../../pages/Error/ErrorPage';
 import AlterationsTailoring from '../../../pages/footerComponents/stores&services/alterations&Tailoring';
 import EcommerceLocal from '../../../pages/footerComponents/stores&services/ecommerceLocal';
 import EcommerceResturants from '../../../pages/footerComponents/stores&services/ecommerceResturants';
@@ -9,20 +11,22 @@ import VirtualEvents from '../../../pages/footerComponents/stores&services/virtu
 
 
 
-import { Routes, Route} from 'react-router-dom';
+
 
 const StoresServices = () => {
   return (
     <>
-        <Routes>
-            <Route path="" element={AlterationsTailoring}/>
-            <Route path="" element={EcommerceLocal}/>
-            <Route path="" element={EcommerceResturants}/>
-            <Route path="" element={FindAStore}/>
-            <Route path="" element={FreeStyleHelp}/>
-            <Route path="" element={PopInShop}/>
-            <Route path="" element={SpaEcommerce}/>
-            <Route path="" element={VirtualEvents}/>
+        <Routes path="/stores&services">
+            <Route path="/alterations&tailoring" element={<AlterationsTailoring/>}/>
+            <Route path="/ecommercelocal" element={<EcommerceLocal/>}/>
+            <Route path="/ecommereresturants" element={<EcommerceResturants/>}/>
+            <Route path="/findastore" element={<FindAStore/>}/>
+            <Route path="/freestylehelp" element={<FreeStyleHelp/>}/>
+            <Route path="/popinshop" element={<PopInShop/>}/>
+            <Route path="/spaecommerce" element={<SpaEcommerce/>}/>
+            <Route path="/virtualevents" element={<VirtualEvents/>}/>
+            <Route path="*" element={<ErrorPage/>}/>
+            
         </Routes>
     </>
   )

@@ -1,20 +1,24 @@
-import {Routes, Route} from 'react-router-dom'
-
-
-
-
-
 
 import React from 'react'
+import ErrorPage from '../../../pages/Error/ErrorPage';
+import {Routes, Route} from 'react-router-dom';
+import GetOurApp from '../../../pages/footerComponents/getOurApp/getOurApp'
 
-const GetOurApp = () => {
+
+
+
+
+
+
+const GetApp = () => {
   return (
     <>
-        <Routes>
-        <Route path="" element={GetOurApp}/>
+        <Routes path="getourapp">
+          <Route path="/app" element={<GetOurApp/>}/>
+          <Route path="*" element={<ErrorPage/>}/>
         </Routes>
     </>
   )
 }
 
-export default GetOurApp
+export default GetApp

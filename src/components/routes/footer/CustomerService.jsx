@@ -1,3 +1,5 @@
+import React from 'react'
+import ErrorPage from '../../../pages/Error/ErrorPage';
 import { Routes, Route} from 'react-router-dom';
 
 
@@ -13,21 +15,20 @@ import UnitedStates from '../../../pages/footerComponents/customerService/united
 
 
 
-import React from 'react'
 
 export const CustomerService = () => {
   return (
     <>
-    <Routes>
-
-        <Route path="" element={ContactUs}/>
-        <Route path="" element={GiftCards}/>
-        <Route path="" element={OrderStatus}/>
-        <Route path="" element={PriceAdjustments}/>
-        <Route path="" element={ProductRetail}/>
-        <Route path="" element={ReturnPolicyExchanges}/>
-        <Route path="" element={Shipping}/>
-        <Route path="" element={UnitedStates}/>
+    <Routes path="customerservice">
+        <Route path="/contactus" element={<ContactUs/>}/>
+        <Route path="/giftcards" element={<GiftCards/>}/>
+        <Route path="/orderstatus" element={<OrderStatus/>}/>
+        <Route path="/priceadjustment" element={<PriceAdjustments/>}/>
+        <Route path="/productretail" element={<ProductRetail/>}/>
+        <Route path="/returnpolicyexchanges" element={<ReturnPolicyExchanges/>}/>
+        <Route path="/shipping" element={<Shipping/>}/>
+        <Route path="/unitedstatus" element={<UnitedStates/>}/>
+        <Route path="*" element={<ErrorPage/>}/>
     </Routes>
     </>
   )

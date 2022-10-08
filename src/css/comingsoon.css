@@ -1,0 +1,28 @@
+
+
+.container--comingsoon {
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+
+
+.containernested--comingsoon--1 {
+    
+    
+}
+
+.containernested--comingsoon--2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.containernested--comingsoon--3 {
+    
+    
+}

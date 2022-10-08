@@ -1,3 +1,5 @@
+import React from 'react'
+import ErrorPage from '../../../pages/Error/ErrorPage';
 import {Routes, Route} from 'react-router-dom'
 
 import EcommerceCanada from '../../../pages/footerComponents/ecommerceInc/ecommerceCanada';
@@ -7,17 +9,17 @@ import InvestorRelations from '../../../pages/footerComponents/ecommerceInc/inve
 import PressReleases from '../../../pages/footerComponents/ecommerceInc/pressReleases';
 
 
-import React from 'react'
 
 const EcommerceInc = () => {
   return (
     <>
-        <Routes>
-        <Route path="" element={EcommerceCanada}/>
-        <Route path="" element={EcommerceMediaNetwork}/>
-        <Route path="" element={EcommerceRack}/>
-        <Route path="" element={InvestorRelations}/>
-        <Route path="" element={PressReleases}/>
+        <Routes path="/ecommerceinc">
+            <Route path="/ecommercecanada" element={<EcommerceCanada/>}/>
+            <Route path="/ecommercemedianetwork" element={<EcommerceMediaNetwork/>}/>
+            <Route path="/ecommercerack" element={<EcommerceRack/>}/>
+            <Route path="/investorrelations" element={<InvestorRelations/>}/>
+            <Route path="/pressreleases" element={<PressReleases/>}/>
+            <Route path="*" element={<ErrorPage/>}/>
         </Routes>
     </>
   )

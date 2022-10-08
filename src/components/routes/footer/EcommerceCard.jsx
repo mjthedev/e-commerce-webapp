@@ -1,4 +1,6 @@
+import React from 'react'
 import {Routes, Route} from 'react-router-dom'
+import ErrorPage from '../../../pages/Error/ErrorPage';
 
 import ApplyForEcommerceCard from '../../../pages/footerComponents/ecommerceCard/applyForEcommerceCard';
 import ManageMyEcommerceCard from '../../../pages/footerComponents/ecommerceCard/manageMyEcommerceCard';
@@ -7,16 +9,16 @@ import TheEcommerceClubRewards from '../../../pages/footerComponents/ecommerceCa
 
 
 
-import React from 'react'
 
 const EcommerceCard = () => {
   return (
     <>
-        <Routes>
-            <Route path="" element={ApplyForEcommerceCard}/>
-            <Route path="" element={ManageMyEcommerceCard}/>
-            <Route path="" element={PayMyBills}/>
-            <Route path="" element={TheEcommerceClubRewards}/>
+        <Routes path="/ecommercecard">
+            <Route path="/applyforecommercecard" element={<ApplyForEcommerceCard/>}/>
+            <Route path="/managemyecommercecard" element={<ManageMyEcommerceCard/>}/>
+            <Route path="/paymybills" element={<PayMyBills/>}/>
+            <Route path="/theecommerceclubrewards" element={<TheEcommerceClubRewards/>}/>
+            <Route path="*" element={<ErrorPage/>}/>
         </Routes>
     </>
   )
