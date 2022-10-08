@@ -18,6 +18,7 @@ import Beauty from './pages/navbarComponents/Beauty';
 import Designer from './pages/navbarComponents/Designer';
 import Gift from './pages/navbarComponents/Gift';
 import Threads from './pages/navbarComponents/Threads';
+import FooterRoutes from './components/routes/footer/FooterRoutes.js';
 
 
 
@@ -41,6 +42,9 @@ function App() {
             <Route path="/Gift" element = {<Gift/>}/>
             <Route path="/Threads" element = {<Threads/>}/>
             <Route path="*" element={<ErrorPage/>}/>
+
+            <FooterRoutes/>
+
           </Routes>
       </>      
   );
