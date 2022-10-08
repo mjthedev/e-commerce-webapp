@@ -1,6 +1,7 @@
 ideas for webapp go here
 
-- Route bottom footer
-- Fix styling for GetOurApp in main footer
+- add content and styling to all pages
+- add dropdown menu for navbar
 
+- ComingSoon 
 
