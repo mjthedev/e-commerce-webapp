@@ -6,4 +6,5 @@ ideas for webapp go here
 
 - add proper routing to signin button to the right of search bar and signin/create button in header component
 
+- make sure all routes/links bring user back to the top of the page when clicked on
 
