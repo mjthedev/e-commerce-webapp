@@ -1,6 +1,12 @@
 ideas for webapp go here
 
-- Route bottom footer
-- Fix styling for GetOurApp in main footer
+- add dropdown navbar
+- add content on all pages.
 
 
+
+
+- link a backend api
+- add user auth
+- use postgres to add and remove and display content
+- 
