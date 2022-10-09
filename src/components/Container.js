@@ -1,5 +1,10 @@
 import React from 'react'
 import '../css/container.css'
+import woman from '../img/woman.jpg';
+import man from '../img/man.jpg';
+import kid from '../img/kid.jpg';
+import teen from '../img/teen.jpg';
+import beautyfragrance from '../img/BeautyFragrance.jpg';
 
 
 const container = () => {
@@ -17,22 +22,17 @@ const container = () => {
         </div>
         <div className="container--div">three</div>
     </div>
-    
+
+        <div className="container--two-header">SHOP BY CATEGORY</div>
         <div className="container--two">
-            <div className="container--second--div"><image style={{width: 250, height:300}} src="../img/girl.png" alt=""/></div>
-            <div className="container--second--div"><img style={{width: 250, height:300}} src="../img/guy.png" alt=""/></div>
-            <div className="container--second--div"><img style={{width: 250, height:300}} src="../img/kid.png" alt=""/></div>
-            <div className="container--second--div"><img style={{width: 250, height:300}} src="../img/teen.png" alt=""/></div>
-            <div className="container--second--div"><img style={{width: 250, height:300}} src="../img/gift.png" alt=""/></div>
+            <div className="container--second--div"><img style={{width: 250, height:350}} src={woman} alt=''/><h1 className="container-second-textitem">Women</h1></div>
+            <div className="container--second--div"><img style={{width: 250, height:350}} src={man} alt=''/><h1 className="container-second-textitem">Men</h1></div>
+            <div className="container--second--div"><img style={{width: 250, height:350}} src={kid} alt=''/><h1 className="container-second-textitem">Kids</h1></div>
+            <div className="container--second--div"><img style={{width: 250, height:350}} src={teen} alt=''/> <h1 className="container-second-textitem">Teens</h1></div>
+            <div className="container--second--div"><img style={{width: 250, height:350}} src={beautyfragrance} alt=''/> <h1 className="container-second-textitem">Beauty & Fragrance</h1></div>
         </div>
     
-    <div className="container-two-textcontent">
-        <h1 className="container-two-textcontent-item">For Her</h1>
-        <h1 className="container-two-textcontent-item">For Him</h1>
-        <h1 className="container-two-textcontent-item">For Kids</h1>
-        <h1 className="container-two-textcontent-item">For Teens</h1>
-        <h1 className="container-two-textcontent-item">All Gifts</h1>
-    </div>
+
         
     <div className="container">
         <div className="container--third--div">one</div>

@@ -27,16 +27,13 @@ ul.footer--ul {
 }
 
 li.footer--li{
-    margin: 20px;
+    margin: 15px;
 }
 
 a.footer--a {
     color: black;
     text-decoration: none;
-    transition-property: text-decoration;
-    transition-timing-function: ease;
-    transition-duration: 2s;
-    transition-delay: 1s;
+    font-size: 14px;
 }
 
 a.footer--a:hover {
