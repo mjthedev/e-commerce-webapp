@@ -8,7 +8,7 @@
     height: 475px;
     color: black;
     padding: 20px;
-    background-color: lightgray;
+    background-color: rgb(247, 247, 247);
     
 }
 
@@ -46,7 +46,7 @@ a.footer--a:hover {
     display: flex;
     height: 100px;
     align-items: center;
-    background-color: lightgrey;
+    background-color:  rgb(247, 247, 247);
 }
 
 .footer--bottom-a {
