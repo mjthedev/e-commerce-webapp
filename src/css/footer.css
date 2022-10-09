@@ -16,6 +16,7 @@
     font-size: 18px;
     font-weight: bold;
     text-indent: 20px;
+    
 }
 
 .footer--div{
@@ -27,7 +28,7 @@ ul.footer--ul {
 }
 
 li.footer--li{
-    margin: 15px;
+    margin: 20px;
 }
 
 a.footer--a {
