@@ -1,16 +1,16 @@
 import React from 'react'
-import ErrorPage from '../../../pages/Error/ErrorPage';
+import ErrorPage from '../../pages/Error/ErrorPage';
 import { Routes, Route} from 'react-router-dom';
 
 
-import ContactUs from '../../../pages/footerComponents/customerService/contactUs';
-import GiftCards from '../../../pages/footerComponents/customerService/giftCards';
-import OrderStatus from '../../../pages/footerComponents/customerService/orderStatus';
-import PriceAdjustments from '../../../pages/footerComponents/customerService/priceAdjustments';
-import ProductRetail from '../../../pages/footerComponents/customerService/productRetail';
-import ReturnPolicyExchanges from '../../../pages/footerComponents/customerService/returnPolicyExchanges';
-import Shipping from '../../../pages/footerComponents/customerService/shipping';
-import UnitedStates from '../../../pages/footerComponents/customerService/unitedStates';
+import ContactUs from '../../pages/footerComponents/customerService/contactUs';
+import GiftCards from '../../pages/footerComponents/customerService/giftCards';
+import OrderStatus from '../../pages/footerComponents/customerService/orderStatus';
+import PriceAdjustments from '../../pages/footerComponents/customerService/priceAdjustments';
+import ProductRetail from '../../pages/footerComponents/customerService/productRetail';
+import ReturnPolicyExchanges from '../../pages/footerComponents/customerService/returnPolicyExchanges';
+import Shipping from '../../pages/footerComponents/customerService/shipping';
+import UnitedStates from '../../pages/footerComponents/customerService/unitedStates';
 
 
 

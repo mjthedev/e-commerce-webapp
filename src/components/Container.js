@@ -8,6 +8,8 @@ import beautyfragrance from '../img/BeautyFragrance.jpg';
 import fallcollection from '../img/fallcollection.jpg';
 import home from '../img/home.jpg';
 import hispanicheritage from '../img/hispanicheritage.jpg';
+import heritage_1 from '../img/heritage-1.jpg';
+import heritage_2 from '../img/heritage-2.jpg';
 
 
 const container = () => {
@@ -51,19 +53,29 @@ const container = () => {
     <div className="container--fourth">
         <div className="container--fourthdiv--child--1">
 
-            <div className="container--fourthdiv--content">1</div>
+            <div className="container--fourthdiv--topcontent">
+                <div className="heritage--content">ECOMMERCE CELEBRATES</div>
+                <div className="heritage--main--content"><p className='heritage--main--content--item'>HISPANIC&LATINX</p></div>
+                <div className="heritage--content">HERITAGE MONTH</div>
+            </div>
 
                 <div className="container--fourthdiv--grandchild">
-                    <div className="fourthdiv--greatgrand">1</div>
-                    <div className="fourthdiv--greatgrand">2</div>
+                    <div className="fourthdiv--greatgrand"><img src={heritage_2} style={{width: "100%", height: 239}} alt="Omar Lopez" ></img></div>
+                    <div className="fourthdiv--greatgrand"><img src={heritage_1} style={{width: "100%", height: 239}} alt="Omar Lopez"></img></div>
                 </div>
 
-            <div className="container--fourthdiv--content">1</div>
+            <div className="container--fourthdiv--bottomcontent">
+                <div className="container--fourthdiv--bottomcontent--text">We're celebrating Hispanic and Latinx communities, and their incredible impact on our country and the world.</div>
+                <div className="heritage--links">
+                    <h1 className="heritage--links--a">Aprende Más</h1>
+                    <h1 className="heritage--links--b">Shop Latinx Owned or Founded Brands</h1>
+                </div>
+            </div>
             
         </div>
 
         <div className="container--fourthdiv--child--2">
-            <img src={hispanicheritage} style={{width: 675, height: 450}} alt="Brina Blum"></img> 
+            <img src={hispanicheritage} style={{width: 675, height: 450}} alt="Omar Lopez"></img> 
             <div>text</div>
         </div>
         

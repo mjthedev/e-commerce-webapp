@@ -15,6 +15,7 @@
     width: 100%;
     height: 400px;
     margin-bottom: 100px;;
+    border: black 2px solid;
 }
 
 .container--header {
@@ -88,6 +89,7 @@
     flex: 1;
     width: 100%;
     height: 100%;
+    border: red 2px solid;
     
 }
 
@@ -99,6 +101,7 @@
     width: 100%;
     height: 100%;
     font-size: larger;
+    border: red 2px solid;
     
 
 }
@@ -114,14 +117,22 @@
     border: black 2px solid;
 }
 
-.container--fourthdiv--content {
+.container--fourthdiv--topcontent {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
     width: 100%;
     height: 150px;
-    border: red 2px solid;
     
-
+    
 }
 
+.container--fourthdiv--bottomcontent {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    height: 150px;
+    
+}
 .container--fourthdiv--child--1{
 
     border: black 2px solid;
@@ -130,22 +141,58 @@
 
 
 .container--fourthdiv--child--2 {
-    
-    
+    border: black 2px solid;
 }
 
 .container--fourthdiv--grandchild {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 290px;
-    border: black 2px solid;
+    
 }
 
 .fourthdiv--greatgrand {
     display: grid;
+    align-items: center;
     justify-self: center;
-    gap: 10px;
     width: 330px;
-    border: blue 2px solid;
+    
 }
 
+ 
+.heritage--content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.heritage--main--content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heritage--main--content--item {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.heritage--links {
+    display: flex;
+    font-size: 16px;   
+}
+
+.container--fourthdiv--bottomcontent--text {
+    font-size: 14px;
+}
+
+.heritage--links--a {
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+
+.heritage--links--b {
+    font-size: 16px;
+}

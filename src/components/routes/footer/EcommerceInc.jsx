@@ -1,12 +1,12 @@
 import React from 'react'
-import ErrorPage from '../../../pages/Error/ErrorPage';
+import ErrorPage from '../../pages/Error/ErrorPage';
 import {Routes, Route} from 'react-router-dom'
 
-import EcommerceCanada from '../../../pages/footerComponents/ecommerceInc/ecommerceCanada';
-import EcommerceMediaNetwork from '../../../pages/footerComponents/ecommerceInc/ecommerceMediaNetwork';
-import EcommerceRack from '../../../pages/footerComponents/ecommerceInc/ecommerceRack';
-import InvestorRelations from '../../../pages/footerComponents/ecommerceInc/investorRelations';
-import PressReleases from '../../../pages/footerComponents/ecommerceInc/pressReleases';
+import EcommerceCanada from '../../pages/footerComponents/ecommerceInc/ecommerceCanada';
+import EcommerceMediaNetwork from '../../pages/footerComponents/ecommerceInc/ecommerceMediaNetwork';
+import EcommerceRack from '../../pages/footerComponents/ecommerceInc/ecommerceRack';
+import InvestorRelations from '../../pages/footerComponents/ecommerceInc/investorRelations';
+import PressReleases from '../../pages/footerComponents/ecommerceInc/pressReleases';
 
 
 
