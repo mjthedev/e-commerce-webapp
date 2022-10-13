@@ -5,9 +5,9 @@ import {
   Route,
 } from 'react-router-dom';
 
-import MainHome from './components/pages/navbarComponents/MainHome.jsx';
+import MainHome from './components/pages/navbarComponents/MainHome';
 import ErrorPage from './components/pages/Error/ErrorPage';
-import HolidayGifts from './components/pages/navbarComponents/HolidayGifts.js';
+import HolidayGifts from './components/pages/navbarComponents/HolidayGifts';
 import Sale from './components/pages/navbarComponents/Sale'
 import Women from './components/pages/navbarComponents/Women'
 import Men from './components/pages/navbarComponents/Men'
@@ -20,6 +20,7 @@ import Designer from './components/pages/navbarComponents/Designer';
 import Gift from './components/pages/navbarComponents/Gift';
 import Threads from './components/pages/navbarComponents/Threads';
 import FooterRoutes from './components/routes/footer/FooterRoutes';
+import SignIn from './components/pages/account/signIn/SignIn';
 
 
 
@@ -30,6 +31,7 @@ function App() {
     <>
           <Routes>
             <Route path="/" element = {<MainHome/>}/>
+            <Route path="/SignIn" element = {<SignIn/>}/>
             <Route path="/HolidayGifts" element = {<HolidayGifts/>}/>
             <Route path="/Sale" element = {<Sale/>}/>
             <Route path="/Women" element = {<Women/>}/>

@@ -9,15 +9,8 @@
     
 }
 
-.container--two {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    width: 100%;
-    height: 400px;
-    margin-bottom: 100px;;
-}
 
-.container--header {
+.section--header {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,6 +18,19 @@
     height: 200px;
     font-size: x-large;
 }
+
+///// Section-2 styling
+
+
+.container--two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 100px;;
+    
+}
+
 
 .container--second--div {
     display: grid;
@@ -39,13 +45,6 @@
     font-size: 20px;
 }
 
-.container--div {
-    
-}
-
-.container--main-div {
-
-}
 
 .container--div-nested {
     display: flex;
@@ -69,13 +68,7 @@
     flex: 1;
 }
 
-
-
-
-
-.container--second--div {
     
-}
 
 .container--thirddiv--child {
     display: flex;
@@ -98,9 +91,6 @@
     width: 100%;
     height: 100%;
     font-size: larger;
-    
-    
-
 }
 
 .container--fourth {
@@ -131,13 +121,13 @@
     
 }
 .container--fourthdiv--child--1{
+
     
 }
 
 
 
 .container--fourthdiv--child--2 {
-    
     
 }
 
@@ -194,14 +184,3 @@
     font-size: 16px;
 }
 
-
-.heritage--button {
-    text-decoration: underline;
-    text-underline-offset: 3px;
-    color: black;
-    font-weight: bold;
-}
-
-.heritage--button:hover {
-    text-decoration: none;
-}
