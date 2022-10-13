@@ -9,4 +9,4 @@ ideas for webapp go here
 - link a backend api
 - add user auth
 - use postgres to add and remove and display content
-- % 
+- 
