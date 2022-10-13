@@ -13,7 +13,9 @@ function MainHome() {
       <TopAd/>
       <NavigationBar/>
       <Header/>
+
       <Container/>
+
       <Footer/>
     </>
   );

@@ -13,7 +13,7 @@ import heritage_1 from '../img/heritage-1.jpg';
 import heritage_2 from '../img/heritage-2.jpg';
 
 
-const container = () => {
+const Container = () => {
   return (
     <>
          <div className="container">
@@ -89,4 +89,4 @@ const container = () => {
   )
 }
 
-export default container
+export default Container
