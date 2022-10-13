@@ -1,14 +1,14 @@
 import React from 'react'
 import { Routes, Route} from 'react-router-dom';
-import ErrorPage from '../../../pages/Error/ErrorPage';
+import ErrorPage from '../../pages/Error/ErrorPage';
 
-import Careers from '../../../pages/footerComponents/aboutUs/careers';
-import CoporateSocialResponsibily from '../../../pages/footerComponents/aboutUs/corporateSocialResponsibility';
-import DiversityInclusionBeloning from '../../../pages/footerComponents/aboutUs/diversityInclusionBeloning';
-import EcommerceBlog from '../../../pages/footerComponents/aboutUs/ecommerceBlog';
-import EcommercePodcast from '../../../pages/footerComponents/aboutUs/ecommercePodcast';
-import GetEmailUpdate from '../../../pages/footerComponents/aboutUs/getEmailUpdate';
-import TheThread from '../../../pages/footerComponents/aboutUs/theThread';
+import Careers from '../../pages/footerComponents/aboutUs/careers';
+import CoporateSocialResponsibily from '../../pages/footerComponents/aboutUs/corporateSocialResponsibility';
+import DiversityInclusionBeloning from '../../pages/footerComponents/aboutUs/diversityInclusionBeloning';
+import EcommerceBlog from '../../pages/footerComponents/aboutUs/ecommerceBlog';
+import EcommercePodcast from '../../pages/footerComponents/aboutUs/ecommercePodcast';
+import GetEmailUpdate from '../../pages/footerComponents/aboutUs/getEmailUpdate';
+import TheThread from '../../pages/footerComponents/aboutUs/theThread';
 
 
 

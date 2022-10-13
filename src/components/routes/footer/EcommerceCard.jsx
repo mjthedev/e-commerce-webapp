@@ -1,11 +1,11 @@
 import React from 'react'
 import {Routes, Route} from 'react-router-dom'
-import ErrorPage from '../../../pages/Error/ErrorPage';
+import ErrorPage from '../../pages/Error/ErrorPage';
 
-import ApplyForEcommerceCard from '../../../pages/footerComponents/ecommerceCard/applyForEcommerceCard';
-import ManageMyEcommerceCard from '../../../pages/footerComponents/ecommerceCard/manageMyEcommerceCard';
-import PayMyBills from '../../../pages/footerComponents/ecommerceCard/payMyBills';
-import TheEcommerceClubRewards from '../../../pages/footerComponents/ecommerceCard/theEcommerceClubRewards';
+import ApplyForEcommerceCard from '../../pages/footerComponents/ecommerceCard/applyForEcommerceCard';
+import ManageMyEcommerceCard from '../../pages/footerComponents/ecommerceCard/manageMyEcommerceCard';
+import PayMyBills from '../../pages/footerComponents/ecommerceCard/payMyBills';
+import TheEcommerceClubRewards from '../../pages/footerComponents/ecommerceCard/theEcommerceClubRewards';
 
 
 

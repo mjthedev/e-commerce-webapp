@@ -88,3 +88,13 @@ a.navbar--a-items:hover {
     font-weight: lighter;
     color: black;
 }
+
+.signin--button {
+    color: black;
+    text-decoration: 1px underline;
+    text-underline-offset: 5px;
+}
+
+.signin--button:hover {
+    text-decoration: none;
+}

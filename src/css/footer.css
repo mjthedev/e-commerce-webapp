@@ -8,7 +8,7 @@
     height: 475px;
     color: black;
     padding: 20px;
-    background-color: lightgray;
+    background-color: rgb(247, 247, 247);
     
 }
 
@@ -16,6 +16,7 @@
     font-size: 18px;
     font-weight: bold;
     text-indent: 20px;
+    
 }
 
 .footer--div{
@@ -33,10 +34,7 @@ li.footer--li{
 a.footer--a {
     color: black;
     text-decoration: none;
-    transition-property: text-decoration;
-    transition-timing-function: ease;
-    transition-duration: 2s;
-    transition-delay: 1s;
+    font-size: 14px;
 }
 
 a.footer--a:hover {
@@ -48,7 +46,7 @@ a.footer--a:hover {
     display: flex;
     height: 100px;
     align-items: center;
-    background-color: lightgrey;
+    background-color:  rgb(247, 247, 247);
 }
 
 .footer--bottom-a {

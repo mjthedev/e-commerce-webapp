@@ -5,21 +5,22 @@ import {
   Route,
 } from 'react-router-dom';
 
-import MainHome from './pages/navbarComponents/MainHome.jsx';
-import ErrorPage from './pages/Error/ErrorPage';
-import HolidayGifts from './pages/navbarComponents/HolidayGifts.js';
-import Sale from './pages/navbarComponents/Sale'
-import Women from './pages/navbarComponents/Women'
-import Men from './pages/navbarComponents/Men'
-import Kids from './pages/navbarComponents/Kids'
-import YoungAdults from './pages/navbarComponents/YoungAdults';
-import Activewear from './pages/navbarComponents/Activewear';
-import Home from './pages/navbarComponents/Home';
-import Beauty from './pages/navbarComponents/Beauty';
-import Designer from './pages/navbarComponents/Designer';
-import Gift from './pages/navbarComponents/Gift';
-import Threads from './pages/navbarComponents/Threads';
+import MainHome from './components/pages/navbarComponents/MainHome';
+import ErrorPage from './components/pages/Error/ErrorPage';
+import HolidayGifts from './components/pages/navbarComponents/HolidayGifts';
+import Sale from './components/pages/navbarComponents/Sale'
+import Women from './components/pages/navbarComponents/Women'
+import Men from './components/pages/navbarComponents/Men'
+import Kids from './components/pages/navbarComponents/Kids'
+import YoungAdults from './components/pages/navbarComponents/YoungAdults';
+import Activewear from './components/pages/navbarComponents/Activewear';
+import Home from './components/pages/navbarComponents/Home';
+import Beauty from './components/pages/navbarComponents/Beauty';
+import Designer from './components/pages/navbarComponents/Designer';
+import Gift from './components/pages/navbarComponents/Gift';
+import Threads from './components/pages/navbarComponents/Threads';
 import FooterRoutes from './components/routes/footer/FooterRoutes';
+import SignIn from './components/pages/account/signIn/SignIn';
 
 
 
@@ -30,6 +31,7 @@ function App() {
     <>
           <Routes>
             <Route path="/" element = {<MainHome/>}/>
+            <Route path="/SignIn" element = {<SignIn/>}/>
             <Route path="/HolidayGifts" element = {<HolidayGifts/>}/>
             <Route path="/Sale" element = {<Sale/>}/>
             <Route path="/Women" element = {<Women/>}/>
