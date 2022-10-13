@@ -77,7 +77,7 @@ const Container = () => {
 
         <div className="container--fourthdiv--child--2">
             <img src={hispanicheritage} style={{width: 675, height: 450}} alt="Omar Lopez"></img> 
-            <div className="">
+            <div>
                 <div style={{marginTop: 20, marginBottom: 20}}>Bringing smiles together like its going out of style.</div>
                 <Link className='heritage--button' to={"/something"}>Find Community</Link>
             </div>
