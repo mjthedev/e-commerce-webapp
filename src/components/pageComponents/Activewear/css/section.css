@@ -1,0 +1,186 @@
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    gap: 20px;
+    margin: 50px auto;
+    width: 100%;
+    height: 600px;
+    
+}
+
+
+.section--header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    font-size: x-large;
+}
+
+///// Section-2 styling
+
+
+.container--two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 100px;;
+    
+}
+
+
+.container--second--div {
+    display: grid;
+    justify-content: center;
+}
+
+
+
+.container-second-textitem {
+    display: grid;
+    justify-content: center;
+    font-size: 20px;
+}
+
+
+.container--div-nested {
+    display: flex;
+    margin-top: 30px;
+    height: 500px;
+}
+
+.container-div-nested-content {
+    display: flex;
+    flex: 1;
+    height: 300px;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 20px;
+
+    
+}
+
+.container-div-nested-image {
+    display: flex;
+    flex: 1;
+}
+
+    
+
+.container--thirddiv--child {
+    display: flex;
+
+    
+}
+
+.container--thirddiv-grandchild-1{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.container--thirddiv-grandchild-2{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-size: larger;
+}
+
+.container--fourth {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 50px auto;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 200px;
+    
+}
+
+.container--fourthdiv--topcontent {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    width: 100%;
+    height: 150px;
+    
+    
+}
+
+.container--fourthdiv--bottomcontent {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    height: 150px;
+    
+}
+.container--fourthdiv--child--1{
+
+    
+}
+
+
+
+.container--fourthdiv--child--2 {
+    
+}
+
+.container--fourthdiv--grandchild {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 290px;
+    
+}
+
+.fourthdiv--greatgrand {
+    display: grid;
+    align-items: center;
+    justify-self: center;
+    width: 330px;
+    
+}
+
+ 
+.heritage--content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.heritage--main--content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heritage--main--content--item {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.heritage--links {
+    display: flex;
+    font-size: 16px;   
+}
+
+.container--fourthdiv--bottomcontent--text {
+    font-size: 14px;
+}
+
+.heritage--links--a {
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+
+.heritage--links--b {
+    font-size: 16px;
+}
+

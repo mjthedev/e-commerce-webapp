@@ -26,13 +26,14 @@
     display: grid;
     justify-content: center;
     margin-top: 20px;
+    
 }
 
 .header--signin-createacc-button-item {
-    background-color: white;
+    background-color: black;
     border: grey .5px solid;
 }
 
 .header--signin-createacc-button-item:hover {
-    background-color: rgba(189, 195, 199, .5);
+    box-shadow: 1px 1px 1px 1px #8888;
 }

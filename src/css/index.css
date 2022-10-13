@@ -22,8 +22,7 @@ body {
   margin: 1px auto;
   overflow: auto;
   height: 100%;
-  border: 1px solid steelblue;
   padding: 1px;
   border-radius: 5px;
-  background-color: wheat;
+  background-color: transparent;
 }

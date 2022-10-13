@@ -1,8 +1,8 @@
 
 import React from 'react'
-import ErrorPage from '../../../pages/Error/ErrorPage';
+import ErrorPage from '../../pages/Error/ErrorPage';
 import {Routes, Route} from 'react-router-dom';
-import GetOurApp from '../../../pages/footerComponents/getOurApp/getOurApp'
+import GetOurApp from '../../pages/footerComponents/getOurApp/getOurApp'
 
 
 
