@@ -1,12 +1,12 @@
 ideas for webapp go here
 
-- add content and styling to all pages
-- change font size in main footer
-- add dropdown menu for navbar: https://www.w3schools.com/css/css_dropdowns.asp ,
-- add underlining style for navbar links when hovering: https://css-irl.info/animating-underlines/ , https://codepen.io/devilishalchemist/pen/ZYLZay
-- add icons for shopping cart, signin, footer getourapp icons like twitter, facebook, instagram, pinterest and for country logo on main footer.
-- add pageComponents dir then add pages directories for every individual page
-- ComingSoon 
+- add dropdown navbar
+- add content on all pages.
 
-- section out components
 
+
+
+- link a backend api
+- add user auth
+- use postgres to add and remove and display content
+- % 
