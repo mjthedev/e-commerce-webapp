@@ -11,6 +11,7 @@ import home from '../img/home.jpg';
 import hispanicheritage from '../img/hispanicheritage.jpg';
 import heritage_1 from '../img/heritage-1.jpg';
 import heritage_2 from '../img/heritage-2.jpg';
+import Banner from './banners/bannerX/section/banner';
 
 
 const Container = () => {
@@ -49,6 +50,9 @@ const Container = () => {
         <div className="container--thirddiv--child"></div>
     </div>
 
+
+    <Banner/>
+
     <div className="container--header">MAKING TIME FOR WHAT MATTERS</div>
 
     <div className="container--fourth">
@@ -64,6 +68,8 @@ const Container = () => {
                     <div className="fourthdiv--greatgrand"><img src={heritage_2} style={{width: "100%", height: 239}} alt="Omar Lopez" ></img></div>
                     <div className="fourthdiv--greatgrand"><img src={heritage_1} style={{width: "100%", height: 239}} alt="Omar Lopez"></img></div>
                 </div>
+
+               
 
             <div className="container--fourthdiv--bottomcontent">
                 <div className="container--fourthdiv--bottomcontent--text">We're celebrating Hispanic and Latinx communities, and their incredible impact on our country and the world.</div>

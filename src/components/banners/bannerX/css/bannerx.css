@@ -1,0 +1,59 @@
+
+
+.banner-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 169px;
+    cursor: pointer;
+}
+
+.bannerx-content {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+
+}
+
+.bannerx-content-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 750px;
+
+}
+
+
+.bannerx-content-header {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+
+.bannerx-content-text{
+    color: white;
+    font-size: 16px;
+}
+
+.bannerx-content-button {
+    background-color: transparent;
+    text-decoration: .5px underline;
+    text-underline-offset: 4px;
+    border: none;
+}
+
+.bannerx-content-button:hover {
+    text-decoration: none;
+}
+
+
+.bannerx-img {
+  
+}
+
