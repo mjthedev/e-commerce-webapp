@@ -12,9 +12,8 @@ const SectionA = () => {
           <label>Email</label>
           <input type='email'/>
           <p className='signin--text'>By tapping Next, you agree to our Privacy Policy and Terms & Conditions.</p>
-          <button className='signin--button' type="submit">Next</button>
+          <button className='signincreateacc--button' type="submit">Next</button>
         </form>
-
       </div>
     </div>
   )

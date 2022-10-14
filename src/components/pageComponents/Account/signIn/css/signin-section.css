@@ -29,6 +29,17 @@
 
 }
 
+.signincreateacc--button {
+    background-color: black;
+    color: white;
+    height: 44px;
+    border: none;
+}
+
+.signincreateacc--button:hover {
+    cursor: pointer;
+}
+
 label {
     font-weight: bold;
     margin-bottom: 10px;
@@ -52,13 +63,4 @@ input:focus {
     padding: 10px;
 }
 
-button {
-    background-color: black;
-    color: white;
-    height: 44px;
-    border: none;
-}
 
-button:hover {
-    cursor: pointer;
-}
