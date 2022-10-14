@@ -12,6 +12,7 @@ import hispanicheritage from '../img/hispanicheritage.jpg';
 import heritage_1 from '../img/heritage-1.jpg';
 import heritage_2 from '../img/heritage-2.jpg';
 import Banner from './banners/bannerX/section/banner';
+import BannerCreditCard from './banners/bannerCreditCard/section/bannerCreditCard';
 
 
 const Container = () => {
@@ -29,6 +30,9 @@ const Container = () => {
         </div>
         <div className="container--div"></div>
     </div>
+
+
+    <BannerCreditCard/>
 
         <div className="container--header">SHOP BY CATEGORY</div>
         <div className="container--two">
