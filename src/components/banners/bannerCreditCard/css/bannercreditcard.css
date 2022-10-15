@@ -44,7 +44,7 @@
 .banner--creditcard--content--button {
     display: flex;
     width: 70px;
-    justify-content: start;
+    justify-content: flex-start;
     background-color: transparent;
     text-decoration: .5px underline;
     text-underline-offset: 4px;
