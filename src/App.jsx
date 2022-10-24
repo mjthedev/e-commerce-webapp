@@ -21,6 +21,8 @@ import Gift from './components/pages/navbarComponents/Gift';
 import Threads from './components/pages/navbarComponents/Threads';
 import FooterRoutes from './components/routes/footer/FooterRoutes';
 import SignIn from './components/pages/account/signIn/SignIn';
+import CreateAcc from './components/pages/account/createAccount/CreateAccount'
+import Login from './components/pages/account/login/Login';
 
 
 
@@ -33,6 +35,8 @@ function App() {
           <Routes>
             <Route path="/" element = {<MainHome/>}/>
             <Route path="/SignIn" element = {<SignIn/>}/>
+            <Route path="/Create" element = {<CreateAcc/>}/>
+            <Route path="/Login" element = {<Login/>}/>
             <Route path="/HolidayGifts" element = {<HolidayGifts/>}/>
             <Route path="/Sale" element = {<Sale/>}/>
             <Route path="/Women" element = {<Women/>}/>
