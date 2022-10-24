@@ -47,9 +47,7 @@ function App() {
             <Route path="/Threads" element = {<Threads/>}/>
             <Route path="*" element={<ErrorPage/>}/>
             <Route path="/footer/*" element={<FooterRoutes/>}/>
-          </Routes>
-
-          
+          </Routes>    
       </>      
   );
 }
