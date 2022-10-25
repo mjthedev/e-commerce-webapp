@@ -12,7 +12,8 @@ const Header = () => {
             <p>Shop what you love-faster and easier.</p>
         </div>
         <div className="header--signin-createacc-button">
-        <Link to={"/SignIn"} ><button className="header--signin-createacc-button-item" style={{width: 220, height: 30}}>Sign in or Create an Account</button></Link>
+        <Link to={"/SignIn"} ><button className="header--signin-createacc-button-item" style={{width: 100, height: 30}}>Sign in</button></Link>
+        <Link to={"/Create"} ><button className="header--signin-createacc-button-item" style={{width: 160 , height: 30}}>Create an Account</button></Link>
         </div>
     </div>
     </>
