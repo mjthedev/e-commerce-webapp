@@ -11,7 +11,7 @@ const SectionA = () => {
         <p className='login--text'>Check out faster</p>
         <p className='login--text'>Track orders easily</p>
         <p className='login--text'>*Required</p>
-        <form action='http://localhost:9000/getuser' method='post'>
+        <form action='http://localhost:9000/login' method='POST'>
           <label className='CA--label'>*username</label>
           <input name='username'/>
           <label className='CA--label'>*password</label>
