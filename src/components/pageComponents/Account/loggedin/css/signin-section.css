@@ -1,0 +1,66 @@
+.signin--container {
+    display: grid;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.signin--container--child {
+    display:flex;
+    flex-direction: column;
+    width: 330px;
+    height: 300px;
+    
+}
+
+
+.signin--header {
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.signin--text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: 300;
+
+}
+
+.signincreateacc--button {
+    background-color: black;
+    color: white;
+    height: 44px;
+    border: none;
+}
+
+.signincreateacc--button:hover {
+    cursor: pointer;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    height: 40px;
+    border: black 1px solid;
+}
+
+input:focus {
+    border-bottom: black 3px;
+    outline: none;
+    border-bottom: black 4px solid;
+    padding: 10px;
+}
+
+

@@ -23,7 +23,7 @@ import FooterRoutes from './components/routes/footer/FooterRoutes';
 import SignIn from './components/pages/account/signIn/SignIn';
 import CreateAcc from './components/pages/account/createAccount/CreateAccount'
 import Login from './components/pages/account/login/Login';
-
+import LoggedIn from './components/pages/account/loggedIn/LoggedIn';
 
 
 
@@ -49,6 +49,7 @@ function App() {
             <Route path="/Designer" element = {<Designer/>}/>
             <Route path="/Gift" element = {<Gift/>}/>
             <Route path="/Threads" element = {<Threads/>}/>
+            <Route path="/LoggedIn" element ={<LoggedIn/>}/>
             <Route path="*" element={<ErrorPage/>}/>
             <Route path="/footer/*" element={<FooterRoutes/>}/>
           </Routes>    

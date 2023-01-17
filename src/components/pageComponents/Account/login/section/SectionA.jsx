@@ -2,6 +2,25 @@ import '../css/login-section.css';
 // import AddAccount from '../../../../../controllers/addUser';
 
 import React from 'react'
+import axios from 'axios';
+
+
+const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log('Logging username: ', e.target.username.value);
+    console.log('Logging password: ', e.target.password.value);
+   
+    axios.post('http://localhost:9000/userlogin', {
+        username: e.target.username.value,
+        password: e.target.password.value
+    }).then((user) => {
+        console.log(user.data);
+
+}).catch((err) => {
+    console.log(err);
+});
+}
+
 
 const SectionA = () => {
   return (
@@ -11,7 +30,7 @@ const SectionA = () => {
         <p className='login--text'>Check out faster</p>
         <p className='login--text'>Track orders easily</p>
         <p className='login--text'>*Required</p>
-        <form action='http://localhost:9000/login' method='POST'>
+        <form onSubmit={handleSubmit}>
           <label className='CA--label'>*username</label>
           <input name='username'/>
           <label className='CA--label'>*password</label>
