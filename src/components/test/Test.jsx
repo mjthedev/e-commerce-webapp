@@ -3,7 +3,7 @@ import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 
 export default function Test() {
-  const [spacing, setSpacing] = React.useState(2);
+//  const [spacing, setSpacing] = React.useState(2);
 
   const items = [
     {
@@ -106,9 +106,9 @@ export default function Test() {
     },
   ];
 
-  const handleChange = (event) => {
-    setSpacing(Number(event.target.value));
-  };
+//  const handleChange = (event) => {
+//    setSpacing(Number(event.target.value));
+//  };
 
   //   const jsx = `
   // <Grid container spacing={${spacing}}>
@@ -117,7 +117,7 @@ export default function Test() {
   return (
     <Grid container spacing={2}>
       <Grid item>
-        <Grid container justifyContent="center" spacing={spacing}>
+        <Grid container justifyContent="center">
           {items.map((item) => (
             <Grid key={item.id} item xs={12} sm={2}>
               <Paper

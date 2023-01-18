@@ -93,6 +93,7 @@ a.navbar--a-items:hover {
     color: black;
     text-decoration: 1px underline;
     text-underline-offset: 5px;
+    margin-left: 10px;
 }
 
 .signin--button:hover {

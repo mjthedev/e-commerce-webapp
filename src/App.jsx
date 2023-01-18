@@ -24,6 +24,10 @@ import SignIn from './components/pages/account/signIn/SignIn';
 import CreateAcc from './components/pages/account/createAccount/CreateAccount'
 import Login from './components/pages/account/login/Login';
 import LoggedIn from './components/pages/account/loggedIn/LoggedIn';
+import TopAd from './components/TopAd';
+import NavigationBar from './components/NavigationBar';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 
 
@@ -33,7 +37,15 @@ function App() {
   return (
     <>
           <Routes>
-            <Route path="/" element = {<MainHome/>}/>
+            <Route path="/" element = {
+                <>
+                <TopAd/>
+                <NavigationBar/>
+                <Header/>
+                <MainHome/>
+                <Footer/>
+                </>
+            }/>
             <Route path="/SignIn" element = {<SignIn/>}/>
             <Route path="/Create" element = {<CreateAcc/>}/>
             <Route path="/Login" element = {<Login/>}/>
