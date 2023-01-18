@@ -22,7 +22,7 @@ const SectionA = () => {
     console.log('Logging username: ', e.target.username.value);
     console.log('Logging password: ', e.target.password.value);
    
-    axios.post('http://68.183.143.190:9000/userlogin', {
+    axios.post('https://ecomie-backend-api.marrionjohnson.io:9000/userlogin', {
         username: e.target.username.value,
         password: e.target.password.value
     }, config).then((user) => {
