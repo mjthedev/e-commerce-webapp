@@ -39,8 +39,8 @@ console.log(isLoggedIn);
         </div>
         <div className="navbar--main-signin-shoppingbag">
         { isLoggedIn ? 
-            <p className="navbar--main-signin-item">Welcome, {user.username}  <Link className='signin--button' onClick={(e) => { e.preventDefault(); console.log('logging out'); handleLogout()}} to={"/SignIn"}>Logout</Link> <i className="navbar--main-signin-icon fa-solid fa-angle-down"></i></p> :
-            <p className="navbar--main-signin-item"><Link className='signin--button' to={"/SignIn"}>Sign In</Link> <i className="navbar--main-signin-icon fa-solid fa-angle-down"></i></p> 
+            <p className="navbar--main-signin-item">Welcome, {user.username}  <Link className='signin--button' onClick={(e) => { e.preventDefault(); console.log('logging out'); handleLogout()}} to={"/Login"}>Logout</Link> <i className="navbar--main-signin-icon fa-solid fa-angle-down"></i></p> :
+            <p className="navbar--main-signin-item"><Link className='signin--button' to={"/Login"}>Sign In</Link> <i className="navbar--main-signin-icon fa-solid fa-angle-down"></i></p> 
         }
 
         <i className="navbar--main-shoppingbag-item fa-solid fa-xl fa-bag-shopping"></i>
