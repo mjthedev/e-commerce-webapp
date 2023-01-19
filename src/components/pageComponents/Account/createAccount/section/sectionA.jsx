@@ -12,7 +12,7 @@ const SectionA = () => {
       <div className='createacc--container--child'>
         <h1 className='createacc--header'>Create an Account</h1>
         <p className='createacc--text'>*Required</p>
-        <form action='http://ecomie-backend-api.marrionjohnson.io:9000/addaccount' method='POST'>
+        <form action='https://ecomie-backend-api.marrionjohnson.io:9000/addaccount' method='POST'>
           <label className='CA--label'>*First name</label>
           <input name='firstname' />
           <label className='CA--label'>*Last name</label>
