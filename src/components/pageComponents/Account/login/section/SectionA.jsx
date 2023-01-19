@@ -7,7 +7,8 @@ import { loginUser, updateUserData } from '../../../../../features/user/userSlic
 import MainHome from '../../../../pages/navbarComponents/MainHome';
 
 var config = {
-    headers: {'Access-Control-Allow-Origin': '*'}, 
+    headers: {'Access-Control-Allow-Origin': '*',
+                'Content-Type': 'application/x-www-form-urlencoded'}, 
 };
 
 
