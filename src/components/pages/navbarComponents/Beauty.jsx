@@ -1,23 +1,18 @@
-import '../../../css/index.css';
-import TopAd  from '../../TopAd';
-import Footer from '../../Footer';
-import NavigationBar from '../../NavigationBar';
-import Header from '../../Header';
-import ComingSoon from '../comingSoon/ComingSoon';
-
-
-
+import "../../../css/index.css";
+import TopAd from "../../TopAd";
+import Footer from "../../Footer";
+import NavigationBar from "../../NavigationBar";
+import BeautyContent from "../../../content/beauty/BeautyContent";
 
 function Beauty() {
-    return (
-      <>
-        <TopAd/>
-        <NavigationBar/>
-        <Header/>
-        <ComingSoon/>
-        <Footer/>
-      </>
-    );
-  }
-  
-  export default Beauty;
+  return (
+    <>
+      <TopAd />
+      <NavigationBar />
+      <BeautyContent />
+      <Footer />
+    </>
+  );
+}
+
+export default Beauty;
