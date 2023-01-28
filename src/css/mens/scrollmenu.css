@@ -1,0 +1,35 @@
+div.scrollmenu {
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+    border-bottom: 1px solid lightgray;
+
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  div.scrollmenu a:hover {
+    
+      text-decoration-line: underline;
+      text-underline-offset: 17px;
+      text-decoration-thickness: 10px;
+  }
+
+
+  div.scrollmenu {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  div.scrollmenu::-webkit-scrollbar {
+
+    display: none;
+  
+  }
