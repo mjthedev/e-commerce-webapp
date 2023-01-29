@@ -3,7 +3,6 @@ import TopAd from "../../TopAd";
 import Footer from "../../Footer";
 import NavigationBar from "../../NavigationBar";
 import HomeContent from "../../../content/home/HomeContent";
-import { Pagination } from "@mui/material";
 
 function Home() {
   return (

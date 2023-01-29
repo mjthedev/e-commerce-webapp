@@ -7,7 +7,7 @@ export const MensMenu = () => {
 
   return (
     <>
-      {categoryDetails}
+      <h1>{categoryDetails}</h1>
       <div className="scrollmenu">
         <a
           href="#home"

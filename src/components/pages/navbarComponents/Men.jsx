@@ -14,7 +14,8 @@ function Men() {
         src={banner}
         width="1143px"
         height="357.3px"
-        style={{ marginLeft: 100, marginBottom: 70, marginTop: 90 }}
+        style={{ marginLeft: 200, marginBottom: 70, marginTop: 90 }}
+        alt=""
       />
       <MensContent />
       <Footer />

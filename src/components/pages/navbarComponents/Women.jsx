@@ -3,17 +3,21 @@ import TopAd from "../../TopAd";
 import Footer from "../../Footer";
 import NavigationBar from "../../NavigationBar";
 import WomensContent from "../../../content/womens/WomensContent";
-import WomensMenu from "../../../components/pageComponents/Menus/WomensMenu";
-import { Pagination } from "@mui/material";
+import banner from "../../../img/commonWomensbanner.png";
 
 function Women() {
   return (
     <>
       <TopAd />
       <NavigationBar />
-      <WomensMenu />
+      <img
+        src={banner}
+        width="1143px"
+        height="357.3px"
+        style={{ marginLeft: 200, marginBottom: 70, marginTop: 90 }}
+        alt=""
+      />
       <WomensContent />
-      <Pagination count={10} variant="outlined" />
       <Footer />
     </>
   );
