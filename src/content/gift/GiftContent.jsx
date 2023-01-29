@@ -2,13 +2,7 @@ import * as React from "react";
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 
-<<<<<<< HEAD:src/components/test/Test.jsx
-export default function Test() {
-//  const [spacing, setSpacing] = React.useState(2);
-
-=======
 export default function GiftContent() {
->>>>>>> mui:src/content/gift/GiftContent.jsx
   const items = [
     {
       id: 1,
@@ -124,15 +118,9 @@ export default function GiftContent() {
     },
   ];
 
-<<<<<<< HEAD:src/components/test/Test.jsx
-//  const handleChange = (event) => {
-//    setSpacing(Number(event.target.value));
-//  };
-=======
   // const handleChange = (event) => {
   //   setSpacing(Number(event.target.value));
   // };
->>>>>>> mui:src/content/gift/GiftContent.jsx
 
   //   const jsx = `
   // <Grid container spacing={${spacing}}>
@@ -147,11 +135,7 @@ export default function GiftContent() {
       }}
     >
       <Grid item>
-<<<<<<< HEAD:src/components/test/Test.jsx
-        <Grid container justifyContent="center">
-=======
         <Grid container justifyContent="center" spacing={2}>
->>>>>>> mui:src/content/gift/GiftContent.jsx
           {items.map((item) => (
             <Grid key={item.id} item xs={12} sm={3}>
               <Paper
