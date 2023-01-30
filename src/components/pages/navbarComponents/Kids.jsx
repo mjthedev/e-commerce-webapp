@@ -9,6 +9,13 @@ function Kids() {
     <>
       <TopAd />
       <NavigationBar />
+      <img
+        src={"https://gcsecomie.imgix.net/banners/common/commonKidsBanner.png"}
+        width="1300px"
+        height="357.3px"
+        style={{ marginLeft: 150, marginBottom: 70, marginTop: 90 }}
+        alt=""
+      />
       <KidsContent />
       <Footer />
     </>

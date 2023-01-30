@@ -18,6 +18,15 @@ function Women() {
         style={{ marginLeft: 200, marginBottom: 70, marginTop: 90 }}
         alt=""
       />
+      <img
+        src={
+          "https://gcsecomie.imgix.net/banners/seasonal/ValentinesDaySeasonalBanner.png"
+        }
+        width="1380px"
+        height="600px"
+        style={{ marginLeft: 100, marginBottom: 70, marginTop: 90 }}
+        alt=""
+      />
       <WomensContent />
       <Footer />
     </>
