@@ -1,15 +1,22 @@
 const items = [
   {
     id: 1,
-    sku: 12234,
+    sku: 5677122,
     brand: "Maximos",
+    brandDetails:
+      "Rooted in a dedication to innovation and helping people improve their game, Nike asserts that we're all athletes and strives to outfit each of us with the high-performance gear our workouts need. Founded in Oregon by a track athlete and his coach, this now globally renowned brand creates inventive shoes and apparel for athletes at all levels.",
     details: "Primo Colorblock Modal & Cotton Sweater Polo",
-    description: "",
+    description:
+      "Sweat-wicking Dri-FIT knit with breathable mesh at the top of the foot and a fit-enhancing arch band ensure cool comfort in these cushioned crew socks.",
     item: "Men's Shirt",
     img: "http://gcsecomie.imgix.net/catalog/men/shirts/arrul-lin-sYhUhse5uT8-unsplash.jpg?w=225&h=300&fit=crop",
     price: "64.99",
-    size: "",
-    color: "",
+    size: "large",
+    color: "grey",
+    packaging: "Pack of six pairs",
+    fabric: "Cotton/polyester/spandex/nylon",
+    washinstructions: "Machine wash/tumble dry",
+    orgin: "Domestic",
   },
   {
     id: 2,
@@ -3584,7 +3591,4 @@ const items = [
     color: "",
   },
 ];
-
-console.log(items.length);
-
 export default items;

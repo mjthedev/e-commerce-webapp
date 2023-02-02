@@ -1,14 +1,20 @@
 import React, { useState } from "react";
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
-import { Link } from "@mui/material";
+// import { Link } from "@mui/material";
+import { Link } from "react-router-dom";
 import "../../css/elements.css";
 import data from "./items";
 import usePagination from "./Pagination.jsx";
 import { Pagination } from "@mui/material";
+import { useSelector, useDispatch } from "react-redux";
+import { updateItemData } from "../../features/item/itemSlice";
 
 const Content = () => {
+  const storeItem = useSelector((state) => state.item);
+  const dispatch = useDispatch();
   let [page, setPage] = useState(1);
+  // let [selectedItem, setSelectedItem] = useState("");
   const PER_PAGE = 24;
 
   const count = Math.ceil(data.length / PER_PAGE);
@@ -60,8 +66,19 @@ const Content = () => {
                   href="#"
                   underline="none"
                   className="card-detail"
+                  to={{
+                    pathname: "/Item",
+                  }}
                   sx={{
                     color: "black",
+                  }}
+                  onClick={() => {
+                    // console.log(item);
+                    // console.log(selectedItem);
+                    // setSelectedItem(item);
+                    // console.log(selectedItem);
+                    dispatch(updateItemData({ ...item }));
+                    // console.log(storeItem);
                   }}
                 >
                   {item.details}
