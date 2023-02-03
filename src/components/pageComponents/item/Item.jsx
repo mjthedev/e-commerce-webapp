@@ -16,6 +16,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { CheckBox, CheckBoxOutlineBlankOutlined } from "@mui/icons-material";
 import { Link } from "react-router-dom";
+import "./item.css";
 
 const ItemPage = () => {
   const Item = styled(Paper)(({ theme }) => ({
@@ -23,6 +24,8 @@ const ItemPage = () => {
     ...theme.typography.body2,
     padding: theme.spacing(1),
     textAlign: "start",
+    gap: "100px",
+    boxShadow: "none",
     color: theme.palette.text.secondary,
   }));
   // figure out why the state is rendering nested
@@ -32,13 +35,14 @@ const ItemPage = () => {
   //   console.log("from item component:", item);
   return (
     <>
-      <Box sx={{ flexGrow: 1 }}>
+      <Box sx={{ flexGrow: 1, border: "none" }}>
         <Grid container spacing={2}>
           <Grid xs={8}>
             <Item
               sx={{
                 width: 450,
                 height: 614,
+                border: "solid",
               }}
             >
               <img src={item.img} style={{ width: 450, height: 614 }} alt="" />
@@ -54,6 +58,7 @@ const ItemPage = () => {
               sx={{
                 width: 450,
                 height: 614,
+                border: "solid",
               }}
             >
               <h4>{item.details}</h4>
@@ -89,12 +94,19 @@ const ItemPage = () => {
                   style={{ paddingRight: "20px" }}
                   icon={faShoppingBag}
                   size="lg"
-                />{" "}
+                />
                 ADD TO BAG
               </Button>
             </Item>
           </Grid>
-          <Grid container xs={8}>
+          <Grid
+            sx={{
+              gap: "50px",
+              outline: "none",
+            }}
+            container
+            xs={8}
+          >
             <Grid xs={4}>
               <Item
                 sx={{
@@ -129,7 +141,7 @@ const ItemPage = () => {
                 </h3>
               </Item>
             </Grid>
-            <Grid xs={4}>
+            <Grid sx={{}} xs={4}>
               <Item
                 sx={{
                   width: 378.48,
@@ -189,8 +201,13 @@ const ItemPage = () => {
               </Item>
             </Grid>
           </Grid>
-          <Grid xs={4}>
-            <Item>xs=8</Item>
+          <Grid
+            sx={{
+              border: "solid",
+            }}
+            xs={8}
+          >
+            <Item>Comments</Item>
           </Grid>
         </Grid>
       </Box>

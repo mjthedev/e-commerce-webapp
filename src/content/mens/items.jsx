@@ -17,6 +17,50 @@ const items = [
     fabric: "Cotton/polyester/spandex/nylon",
     washinstructions: "Machine wash/tumble dry",
     orgin: "Domestic",
+    comments: [
+      {
+        userid: 123456,
+        username: "JenniferB",
+        date: "1/1/2023",
+        comment: "This product was amazing",
+        stars: 5,
+      },
+      {
+        userid: 123476,
+        date: "1/1/2023",
+        username: "JamieF",
+        comment: "It arrived on-time and was exactly what i had expected!!!",
+        stars: 5,
+      },
+      {
+        userid: 123432,
+        date: "1/1/2023",
+        username: "VeronicaJ",
+        comment: "I didn't get what i ordered",
+        stars: 2,
+      },
+      {
+        userid: 123732,
+        date: "1/1/2023",
+        username: "JackieB",
+        comment: "This was better than i expected the quality was great",
+        stars: 5,
+      },
+      {
+        userid: 123999,
+        date: "1/1/2023",
+        username: "HollyG",
+        comment: "This item ran small and had to return for a bigger size",
+        stars: 3,
+      },
+      {
+        userid: 123994,
+        date: "1/1/2023",
+        username: "TommyG",
+        comment: "I'm going to order in every color",
+        stars: 5,
+      },
+    ],
   },
   {
     id: 2,
@@ -3591,4 +3635,12 @@ const items = [
     color: "",
   },
 ];
+
+// console.log(
+//   "user: ",
+//   items[0].comments[4].username,
+//   " said ",
+//   items[0].comments[4].comment,
+//   " about thier product"
+// );
 export default items;
