@@ -9,6 +9,8 @@ import usePagination from "./Pagination.jsx";
 import { Pagination } from "@mui/material";
 import { useSelector, useDispatch } from "react-redux";
 import { updateItemData } from "../../features/item/itemSlice";
+import { ThemeProvider } from "@mui/material";
+import theme from "../../css/material/global";
 
 const Content = () => {
   const storeItem = useSelector((state) => state.item);

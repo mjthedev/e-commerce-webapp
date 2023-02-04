@@ -29,42 +29,40 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <TopAd />
-              <NavigationBar />
-              <Header />
-              <MainHome />
-              <Footer />
-            </>
-          }
-        />
-        <Route path="/SignIn" element={<SignIn />} />
-        <Route path="/Create" element={<CreateAcc />} />
-        <Route path="/Login" element={<Login />} />
-        <Route path="/HolidayGifts" element={<HolidayGifts />} />
-        <Route path="/Sale" element={<Sale />} />
-        <Route path="/Women" element={<Women />} />
-        <Route path="/Men" element={<Men />} />
-        <Route path="/Kids" element={<Kids />} />
-        <Route path="/YoungAdults" element={<YoungAdults />} />
-        <Route path="/Activewear" element={<Activewear />} />
-        <Route path="/Home" element={<Home />} />
-        <Route path="/Beauty" element={<Beauty />} />
-        <Route path="/Designer" element={<Designer />} />
-        <Route path="/Gift" element={<Gift />} />
-        <Route path="/Threads" element={<Threads />} />
-        <Route path="/LoggedIn" element={<LoggedIn />} />
-        <Route path="/Item" element={<ItemPage />} />
+    <Routes>
+      <Route
+        path="/"
+        element={
+          <>
+            <TopAd />
+            <NavigationBar />
+            <Header />
+            <MainHome />
+            <Footer />
+          </>
+        }
+      />
+      <Route path="/SignIn" element={<SignIn />} />
+      <Route path="/Create" element={<CreateAcc />} />
+      <Route path="/Login" element={<Login />} />
+      <Route path="/HolidayGifts" element={<HolidayGifts />} />
+      <Route path="/Sale" element={<Sale />} />
+      <Route path="/Women" element={<Women />} />
+      <Route path="/Men" element={<Men />} />
+      <Route path="/Kids" element={<Kids />} />
+      <Route path="/YoungAdults" element={<YoungAdults />} />
+      <Route path="/Activewear" element={<Activewear />} />
+      <Route path="/Home" element={<Home />} />
+      <Route path="/Beauty" element={<Beauty />} />
+      <Route path="/Designer" element={<Designer />} />
+      <Route path="/Gift" element={<Gift />} />
+      <Route path="/Threads" element={<Threads />} />
+      <Route path="/LoggedIn" element={<LoggedIn />} />
+      <Route path="/Item" element={<ItemPage />} />
 
-        <Route path="*" element={<ErrorPage />} />
-        <Route path="/footer/*" element={<FooterRoutes />} />
-      </Routes>
-    </>
+      <Route path="*" element={<ErrorPage />} />
+      <Route path="/footer/*" element={<FooterRoutes />} />
+    </Routes>
   );
 }
 

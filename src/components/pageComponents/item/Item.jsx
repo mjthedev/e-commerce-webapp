@@ -4,7 +4,7 @@ import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Unstable_Grid2";
-import { Button } from "@mui/material";
+import { Button, Typography } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCar,
@@ -17,8 +17,12 @@ import {
 import { CheckBox, CheckBoxOutlineBlankOutlined } from "@mui/icons-material";
 import { Link } from "react-router-dom";
 import "./item.css";
+import { useTheme } from "@mui/material/styles";
 
 const ItemPage = () => {
+  const theme = useTheme();
+  console.log(theme);
+
   const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
     ...theme.typography.body2,
@@ -59,6 +63,7 @@ const ItemPage = () => {
                 width: 450,
                 height: 614,
                 border: "solid",
+                fontFamily: "Brandon",
               }}
             >
               <h4>{item.details}</h4>
@@ -207,7 +212,9 @@ const ItemPage = () => {
             }}
             xs={8}
           >
-            <Item>Comments</Item>
+            <Item>
+              <Typography variant="poster">Comments</Typography>
+            </Item>
           </Grid>
         </Grid>
       </Box>
