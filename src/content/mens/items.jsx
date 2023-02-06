@@ -2,10 +2,10 @@ const items = [
   {
     id: 1,
     sku: 5677122,
-    brand: "Maximos",
+    brand: "MAXIMOS",
     brandDetails:
       "Rooted in a dedication to innovation and helping people improve their game, Nike asserts that we're all athletes and strives to outfit each of us with the high-performance gear our workouts need. Founded in Oregon by a track athlete and his coach, this now globally renowned brand creates inventive shoes and apparel for athletes at all levels.",
-    details: "Primo Colorblock Modal & Cotton Sweater Polo",
+    details: "Cotton Sweater Polo",
     description:
       "Sweat-wicking Dri-FIT knit with breathable mesh at the top of the foot and a fit-enhancing arch band ensure cool comfort in these cushioned crew socks.",
     item: "Men's Shirt",
@@ -15,8 +15,11 @@ const items = [
     color: "grey",
     packaging: "Pack of six pairs",
     fabric: "Cotton/polyester/spandex/nylon",
+    fabricDescription:
+      "Cotton-rich fleece keeps you comfy in a street-ready hoodie with a bold Swoosh logo on the chest.",
     washinstructions: "Machine wash/tumble dry",
     orgin: "Domestic",
+    fit: "Regular & Tall",
     comments: [
       {
         userid: 123456,
