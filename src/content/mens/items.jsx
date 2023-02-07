@@ -18,7 +18,7 @@ const items = [
     fabricDescription:
       "Cotton-rich fleece keeps you comfy in a street-ready hoodie with a bold Swoosh logo on the chest.",
     washinstructions: "Machine wash/tumble dry",
-    orgin: "Domestic",
+    origin: "Domestic",
     fit: "Regular & Tall",
     comments: [
       {

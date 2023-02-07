@@ -25,6 +25,7 @@ import { Link } from "react-router-dom";
 import "./item.css";
 import { useTheme } from "@mui/material/styles";
 import { createTheme } from "@mui/system";
+import { fontSize } from "@mui/system";
 
 const ItemPage = () => {
   const theme = useTheme();
@@ -323,8 +324,9 @@ const ItemPage = () => {
           </Grid>
           <Grid
             sx={{
-              gap: "50px",
+              gap: "100px",
               outline: "none",
+              padding: 10,
             }}
             container
             xs={8}
@@ -336,20 +338,34 @@ const ItemPage = () => {
                   height: 681,
                 }}
               >
-                <h2>SIZE INFO</h2>
+                <h2 style={{ color: "#393939" }}>SIZE INFO</h2>
                 <ul
                   style={{
                     padding: 20,
+                    color: "#393939",
                   }}
                 >
                   <li>{item.size}</li>
                   <li>{item.color}</li>
                 </ul>
-                <h2>DETAILS & CARE</h2>
-                <h5>{item.description}</h5>
+                <h2 style={{ marginBottom: 10, color: "#393939" }}>
+                  DETAILS & CARE
+                </h2>
+                <h5
+                  style={{
+                    fontSize: "1.1rem",
+                    fontWeight: 400,
+                    color: "#393939",
+                  }}
+                >
+                  {item.description}
+                </h5>
                 <ul
                   style={{
                     padding: 20,
+                    color: "#393939",
+                    fontSize: "1rem",
+                    lineHeight: 2,
                   }}
                 >
                   <li>{item.packaging}</li>
@@ -358,8 +374,14 @@ const ItemPage = () => {
                   <li>{item.origin}</li>
                   <li>Item #{item.sku}</li>
                 </ul>
-                <h3>
-                  Free Shipping & Returns <Link to={"#"}>See more</Link>
+                <h3 style={{ fontWeight: 700, color: "#393939" }}>
+                  Free Shipping & Returns{" "}
+                  <Link
+                    style={{ fontWeight: 300, textDecoration: "none" }}
+                    to={"#"}
+                  >
+                    See more
+                  </Link>
                 </h3>
               </Item>
             </Grid>
@@ -370,18 +392,40 @@ const ItemPage = () => {
                   height: 681,
                 }}
               >
-                <h2>
+                <h2 style={{ color: "#393939", marginBottom: 10 }}>
                   <FontAwesomeIcon style={{ paddingRight: 10 }} icon={faGift} />
                   GIFT OPTIONS
                 </h2>
-                <h4>
+                <h4
+                  style={{
+                    fontSize: "1.1rem",
+                    fontWeight: 400,
+                    color: "#393939",
+                  }}
+                >
                   Choose your gift options at Checkout. Some items may not be
                   eligible for all gift options
                 </h4>
 
-                <h4>Delivery</h4>
+                <h4
+                  style={{
+                    marginTop: 10,
+                    fontSize: "1rem",
+                    fontWeight: 700,
+                    color: "#393939",
+                  }}
+                >
+                  Free Pickup
+                </h4>
 
-                <ul style={{ listStyle: "none", padding: 10 }}>
+                <ul
+                  style={{
+                    listStyle: "none",
+                    padding: 10,
+                    lineHeight: 2,
+                    color: "#393939",
+                  }}
+                >
                   <li>
                     <FontAwesomeIcon
                       style={{ paddingRight: 10 }}
@@ -391,7 +435,48 @@ const ItemPage = () => {
                   </li>
                   <li>
                     <FontAwesomeIcon
+                      style={{ paddingRight: 13 }}
+                      icon={faSackDollar}
+                    />
+                    Fabric gift bag &#40;$5&#41;
+                  </li>
+                  <li>
+                    <FontAwesomeIcon
                       style={{ paddingRight: 10 }}
+                      icon={faBoxOpen}
+                    />
+                    DIY Nordstrom gift box &#40;$5&#41;
+                  </li>
+                </ul>
+                <h4
+                  style={{
+                    marginTop: 10,
+                    fontSize: "1rem",
+                    fontWeight: 700,
+                    color: "#393939",
+                  }}
+                >
+                  Delivery
+                </h4>
+
+                <ul
+                  style={{
+                    listStyle: "none",
+                    padding: 10,
+                    lineHeight: 2,
+                    color: "#393939",
+                  }}
+                >
+                  <li>
+                    <FontAwesomeIcon
+                      style={{ paddingRight: 10 }}
+                      icon={faEnvelope}
+                    />{" "}
+                    Email gift message &#40;free&#41;
+                  </li>
+                  <li>
+                    <FontAwesomeIcon
+                      style={{ paddingRight: 13 }}
                       icon={faSackDollar}
                     />
                     Fabric gift bag &#40;$5&#41;
@@ -405,7 +490,7 @@ const ItemPage = () => {
                   </li>
                 </ul>
 
-                <h3>
+                <h3 style={{ marginBottom: 20, color: "#393939" }}>
                   Need help finding the perfect gift? We've got you covered.
                 </h3>
                 <Button
