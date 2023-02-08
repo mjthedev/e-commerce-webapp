@@ -9,7 +9,11 @@ const items = [
     description:
       "Sweat-wicking Dri-FIT knit with breathable mesh at the top of the foot and a fit-enhancing arch band ensure cool comfort in these cushioned crew socks.",
     item: "Men's Shirt",
-    img: "http://gcsecomie.imgix.net/catalog/men/shirts/arrul-lin-sYhUhse5uT8-unsplash.jpg?w=225&h=300&fit=crop",
+    img: [
+      "http://gcsecomie.imgix.net/catalog/men/shirts/arrul-lin-sYhUhse5uT8-unsplash.jpg?w=225&h=300&fit=crop",
+      "http://gcsecomie.imgix.net/catalog/men/shirts/etty-fidele-l5rez6X2m8k-unsplash.jpg?w=225&h=300&fit=crop",
+      "http://gcsecomie.imgix.net/catalog/men/shirts/kenzie-kraft-9QW52RyBLao-unsplash.jpg?w=225&h=300&fit=crop",
+    ],
     price: "64.99",
     size: "large",
     color: "grey",

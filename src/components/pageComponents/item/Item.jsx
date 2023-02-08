@@ -25,7 +25,9 @@ import { Link } from "react-router-dom";
 import "./item.css";
 import { useTheme } from "@mui/material/styles";
 import { createTheme } from "@mui/system";
-import { fontSize } from "@mui/system";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+// import "@splidejs/react-splide/css";
+import "@splidejs/react-splide/css/skyblue";
 
 const ItemPage = () => {
   const theme = useTheme();
@@ -51,7 +53,7 @@ const ItemPage = () => {
 
   // figure out why the state is rendering nested
   const item = useSelector((state) => state.item.item);
-  const dispatch = useDispatch();
+  console.log(item.img);
 
   const [size, setSize] = React.useState("");
 
@@ -60,16 +62,36 @@ const ItemPage = () => {
     <>
       <Box sx={{ flexGrow: 1, border: "none" }}>
         <Grid container spacing={2}>
-          <Grid xs={8}>
-            <Item
-              sx={{
-                width: 450,
-                height: 614,
-                border: "solid",
+          <Grid sx={{ border: "solid" }} xs={8}>
+            <Splide
+              options={{
+                rewind: true,
+                width: 700,
               }}
+              aria-label="React Splide Example"
             >
-              <img src={item.img} style={{ width: 450, height: 614 }} alt="" />
-            </Item>
+              <SplideSlide>
+                <img
+                  style={{ width: 500, height: 700, marginLeft: 100 }}
+                  src={item.img[0]}
+                  alt=""
+                />
+              </SplideSlide>
+              <SplideSlide>
+                <img
+                  style={{ width: 500, height: 700, marginLeft: 100 }}
+                  src={item.img[1]}
+                  alt=""
+                />
+              </SplideSlide>
+              <SplideSlide>
+                <img
+                  style={{ width: 500, height: 700, marginLeft: 100 }}
+                  src={item.img[2]}
+                  alt=""
+                />
+              </SplideSlide>
+            </Splide>
           </Grid>
           <Grid
             sx={{
