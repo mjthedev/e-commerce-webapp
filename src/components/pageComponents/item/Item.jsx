@@ -219,28 +219,28 @@ const ItemPage = () => {
                     label="Size"
                     onChange={""}
                   >
-                    <MenuItem value={"White/Black"}>White/Black</MenuItem>
-                    <MenuItem value={"Cocao Wow/ Cocao Wow/ White"}>
+                    <MenuItem value={"White Black"}>White/Black</MenuItem>
+                    <MenuItem value={"Cocao Wow Cocao Wow/ White"}>
                       Cocao Wow/ Cocao Wow/ White
                     </MenuItem>
                     <MenuItem value={"Rough Green/Rough Green/White"}>
                       Rough Green/Rough Green/White
                     </MenuItem>
-                    <MenuItem value={"Aligator/ White"}>
+                    <MenuItem value={"Aligator White"}>
                       Aligator/ White
                     </MenuItem>
-                    <MenuItem value={"Cave Purple/White"}>
+                    <MenuItem value={"Cave Purple White"}>
                       Cave Purple/White
                     </MenuItem>
-                    <MenuItem value={"Court Purple/White"}>
+                    <MenuItem value={"Court Purple White"}>
                       Court Purple/White
                     </MenuItem>
-                    <MenuItem value={"Unred/ White"}>Unred/ White</MenuItem>
-                    <MenuItem value={"Wheat Gold/Wheat Gold/White"}>
+                    <MenuItem value={"Unred White"}>Unred/ White</MenuItem>
+                    <MenuItem value={"Wheat Gold Wheat Gold/White"}>
                       Wheat Gold/Wheat Gold/White
                     </MenuItem>
-                    <MenuItem value={"Char H/White"}>Char H/White</MenuItem>
-                    <MenuItem value={"Black/White"}>Black/White</MenuItem>
+                    <MenuItem value={"Char H White"}>Char H/White</MenuItem>
+                    <MenuItem value={"Black White"}>Black/White</MenuItem>
                   </Select>
                 </FormControl>
               </Box>
@@ -267,7 +267,7 @@ const ItemPage = () => {
                         marginBottom: 10,
                       }}
                     >
-                      Select a size to see if it’s available for pickup.
+                      Select a size to see if its available for pickup.
                     </h3>
                     <Link style={{ textDecoration: "none" }} to={"#"}>
                       <FontAwesomeIcon
