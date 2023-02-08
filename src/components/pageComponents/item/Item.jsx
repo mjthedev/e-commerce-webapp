@@ -1,5 +1,5 @@
 import React from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
@@ -20,7 +20,6 @@ import {
   faTruckFast,
   faPlus,
 } from "@fortawesome/free-solid-svg-icons";
-import { CheckBox, CheckBoxOutlineBlankOutlined } from "@mui/icons-material";
 import { Link } from "react-router-dom";
 import "./item.css";
 import { useTheme } from "@mui/material/styles";
@@ -55,7 +54,7 @@ const ItemPage = () => {
   const item = useSelector((state) => state.item.item);
   console.log(item.img);
 
-  const [size, setSize] = React.useState("");
+  // const [size, setSize] = React.useState("");
 
   //   console.log("from item component:", item);
   return (
@@ -193,7 +192,7 @@ const ItemPage = () => {
                     style={{
                       borderRadius: 0,
                     }}
-                    value={size}
+                    value={""}
                     label="Size"
                     onChange={""}
                   >
@@ -216,7 +215,7 @@ const ItemPage = () => {
                       marginTop: 20,
                       marginBottom: 20,
                     }}
-                    value={size}
+                    value={""}
                     label="Size"
                     onChange={""}
                   >

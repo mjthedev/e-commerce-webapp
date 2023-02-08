@@ -7,13 +7,13 @@ import "../../css/elements.css";
 import data from "./items";
 import usePagination from "./Pagination.jsx";
 import { Pagination } from "@mui/material";
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import { updateItemData } from "../../features/item/itemSlice";
-import { ThemeProvider } from "@mui/material";
-import theme from "../../css/material/global";
+// import { ThemeProvider } from "@mui/material";
+// import theme from "../../css/material/global";
 
 const Content = () => {
-  const storeItem = useSelector((state) => state.item);
+  // const storeItem = useSelector((state) => state.item);
   const dispatch = useDispatch();
   let [page, setPage] = useState(1);
   // let [selectedItem, setSelectedItem] = useState("");

@@ -13,7 +13,6 @@ import heritage_1 from "../img/heritage-1.jpg";
 import heritage_2 from "../img/heritage-2.jpg";
 import Banner from "./banners/bannerX/section/banner";
 import BannerCreditCard from "./banners/bannerCreditCard/section/bannerCreditCard";
-import { useTheme } from "@mui/material";
 
 const Container = () => {
   return (
