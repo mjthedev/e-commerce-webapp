@@ -25,11 +25,7 @@ const Container = () => {
               <p>Checkout Our Latest Fall Collection</p>
             </div>
             <div className="container-div-nested-image">
-              <img
-                src={fallcollection}
-                style={{ width: 400, height: 500 }}
-                alt="Caleb Jones"
-              ></img>
+              <img id="img-1" src={fallcollection} alt="Caleb Jones"></img>
             </div>
           </div>
         </div>

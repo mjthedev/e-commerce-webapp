@@ -1,4 +1,85 @@
+@media only screen and (min-width: 375px) {
 
+
+    .banner--creditcard--container {
+        position: relative;
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+        width: 80%;
+        height: 169px;
+        cursor: pointer;
+        border-radius: 10px;
+        margin: auto;
+    }
+    
+    .banner--creditcard--container img {
+        display: none;
+    }
+    
+    
+    .banner--creditcard--content {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        box-shadow: 1px .5px 5px .5px grey;
+        
+    }
+    
+    .banner--creditcard--content img  {
+        display: none;
+    }
+    
+    }
+    
+    .banner--creditcard--content--child {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 700px;
+        padding: 10px;
+    }
+    
+    .banner--creditcard--content--child h1 {
+        font-size: 16px;
+    }
+    .banner--creditcard--content--child p {
+        font-size: 14px;
+    }
+    
+    .banner--creditcard--content--header {
+        color: black;
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    
+    
+    .banner--creditcard--content--text {
+        color: black;
+        font-size: 16px;
+    }
+    
+    .banner--creditcard--content--button {
+        display: flex;
+        width: 70px;
+        justify-content: flex-start;
+        background-color: transparent;
+        text-decoration: .5px underline;
+        text-underline-offset: 4px;
+        border: none;
+    }
+    
+    .banner--creditcard--content--button:hover {
+        text-decoration: none;
+    }
+    
+    
+@media only screen and (min-width: 1024px) {
+    
 
 .banner--creditcard--container {
     position: relative;
@@ -54,5 +135,4 @@
 .banner--creditcard--content--button:hover {
     text-decoration: none;
 }
-
-
+}

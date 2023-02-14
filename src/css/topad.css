@@ -1,20 +1,72 @@
-
-.topad--div {
-    display: flex;
-    background-color: black;
-    width: 100%;
-    height: 45px;
+@media only screen and (min-width: 375px) {
+    #topad--div {
+        display: flex;
+        background-color: black;
+        width: 100%;
+        height: 45px;
+    }
+    #topad--div p {
+        font-size: 10px;
+    }
+    
+    .topad--div-items {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+    }
+    .topad--div-item {
+        justify-content: center;
+        color: white;
+    }
+    
+    
 }
 
-.topad--div-items {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
+
+
+@media only screen and (min-width: 720px) {
+    .topad--div {
+        display: flex;
+        background-color: black;
+        width: 100%;
+        height: 45px;
+    }
+    
+    .topad--div-items {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .topad--div-item {
+        justify-content: center;
+        color: white;
+    }
+    
+
 }
+@media only screen and (min-width: 1024px) {
 
-.topad--div-item {
-    justify-content: center;
-    color: white;
-
+    .topad--div {
+        display: flex;
+        background-color: black;
+        width: 100%;
+        height: 45px;
+    }
+    
+    .topad--div-items {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .topad--div-item {
+        justify-content: center;
+        color: white;
+    }
+    
+    
 }

@@ -26,6 +26,7 @@ import ItemPage from "./components/pageComponents/item/Item";
 import NavigationBar from "./components/NavigationBar";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import MainNavigation from "./components/pageComponents/HamburgerMenu/HamMenu";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         element={
           <>
             <TopAd />
+            <MainNavigation />
             <NavigationBar />
             <Header />
             <MainHome />
