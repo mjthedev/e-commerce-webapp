@@ -1,5 +1,5 @@
 import React from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
@@ -20,7 +20,6 @@ import {
   faTruckFast,
   faPlus,
 } from "@fortawesome/free-solid-svg-icons";
-import { CheckBox, CheckBoxOutlineBlankOutlined } from "@mui/icons-material";
 import { Link } from "react-router-dom";
 import "./item.css";
 import { useTheme } from "@mui/material/styles";
@@ -55,7 +54,7 @@ const ItemPage = () => {
   const item = useSelector((state) => state.item.item);
   console.log(item.img);
 
-  const [size, setSize] = React.useState("");
+  // const [size, setSize] = React.useState("");
 
   //   console.log("from item component:", item);
   return (
@@ -193,7 +192,7 @@ const ItemPage = () => {
                     style={{
                       borderRadius: 0,
                     }}
-                    value={size}
+                    value={""}
                     label="Size"
                     onChange={""}
                   >
@@ -216,32 +215,32 @@ const ItemPage = () => {
                       marginTop: 20,
                       marginBottom: 20,
                     }}
-                    value={size}
+                    value={""}
                     label="Size"
                     onChange={""}
                   >
-                    <MenuItem value={"White/Black"}>White/Black</MenuItem>
-                    <MenuItem value={"Cocao Wow/ Cocao Wow/ White"}>
+                    <MenuItem value={"White Black"}>White/Black</MenuItem>
+                    <MenuItem value={"Cocao Wow Cocao Wow/ White"}>
                       Cocao Wow/ Cocao Wow/ White
                     </MenuItem>
                     <MenuItem value={"Rough Green/Rough Green/White"}>
                       Rough Green/Rough Green/White
                     </MenuItem>
-                    <MenuItem value={"Aligator/ White"}>
+                    <MenuItem value={"Aligator White"}>
                       Aligator/ White
                     </MenuItem>
-                    <MenuItem value={"Cave Purple/White"}>
+                    <MenuItem value={"Cave Purple White"}>
                       Cave Purple/White
                     </MenuItem>
-                    <MenuItem value={"Court Purple/White"}>
+                    <MenuItem value={"Court Purple White"}>
                       Court Purple/White
                     </MenuItem>
-                    <MenuItem value={"Unred/ White"}>Unred/ White</MenuItem>
-                    <MenuItem value={"Wheat Gold/Wheat Gold/White"}>
+                    <MenuItem value={"Unred White"}>Unred/ White</MenuItem>
+                    <MenuItem value={"Wheat Gold Wheat Gold/White"}>
                       Wheat Gold/Wheat Gold/White
                     </MenuItem>
-                    <MenuItem value={"Char H/White"}>Char H/White</MenuItem>
-                    <MenuItem value={"Black/White"}>Black/White</MenuItem>
+                    <MenuItem value={"Char H White"}>Char H/White</MenuItem>
+                    <MenuItem value={"Black White"}>Black/White</MenuItem>
                   </Select>
                 </FormControl>
               </Box>
@@ -268,7 +267,7 @@ const ItemPage = () => {
                         marginBottom: 10,
                       }}
                     >
-                      Select a size to see if it’s available for pickup.
+                      Select a size to see if its available for pickup.
                     </h3>
                     <Link style={{ textDecoration: "none" }} to={"#"}>
                       <FontAwesomeIcon

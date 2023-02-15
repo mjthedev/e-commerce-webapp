@@ -13,7 +13,6 @@ import heritage_1 from "../img/heritage-1.jpg";
 import heritage_2 from "../img/heritage-2.jpg";
 import Banner from "./banners/bannerX/section/banner";
 import BannerCreditCard from "./banners/bannerCreditCard/section/bannerCreditCard";
-import { useTheme } from "@mui/material";
 
 const Container = () => {
   return (
@@ -26,11 +25,7 @@ const Container = () => {
               <p>Checkout Our Latest Fall Collection</p>
             </div>
             <div className="container-div-nested-image">
-              <img
-                src={fallcollection}
-                style={{ width: 400, height: 500 }}
-                alt="Caleb Jones"
-              ></img>
+              <img id="img-1" src={fallcollection} alt="Caleb Jones"></img>
             </div>
           </div>
         </div>
